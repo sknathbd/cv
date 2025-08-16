@@ -1,0 +1,144 @@
+Here’s a clear **feature list** for your employee attendance & activity tracking app:
+
+---
+
+### 📌 Core Features
+
+🔑 Authentication & User Management
+
+Login System
+
+Secure login with email/phone + password
+
+Option for OTP login (SMS/Email)
+
+Support for Biometric login (fingerprint/face unlock) for quick access
+
+Sign-Up / Registration
+
+Employee registration with personal details (name, email, phone, employee ID, department, designation)
+
+Admin approval for new user accounts (to prevent unauthorized access)
+
+Option to bulk import employees from admin side (CSV/Excel)
+
+Role-Based Access Control
+
+Employee role → Attendance, activity log, shopping cart, order entry
+
+Manager/Admin role → Dashboard, reports, employee tracking, catalog & order management
+
+Custom permissions (e.g., sales team can see shopping cart, field staff cannot)
+
+Profile Management
+
+Employees can update their profile photo, contact info, password
+
+Admin can edit employee details, reset passwords, or deactivate accounts
+
+Security Features
+---------------------------------------------
+Encrypted passwords & sensitive data storage
+
+Session management (auto logout after inactivity)
+
+Two-factor authentication (optional)
+
+* **Employee Attendance with Camera Verification**
+
+  * Mark attendance with a selfie/photo for identity confirmation
+  * Auto-capture timestamp and GPS coordinates
+
+* **Work Log & Activity Tracking**
+
+  * Start/stop activity recording (tasks, breaks, meetings, etc.)
+  * Log each activity with time, date, and location (GPS coordinates)
+  * Support for predefined activities (e.g., Start Task, Lunch, Prayer, Client Visit, Marketing)
+
+* **Marketing & Client Visit Log**
+
+  * Record client/marketing visit details (location, time, purpose)
+  * Upload visit notes, images, or client signatures
+
+* **Leave & Absence Management**
+
+  * Apply for leave through the app (half-day, full-day, vacation, sick leave)
+  * Track leave balance and approval status
+
+* **Office Day Closing Form**
+
+  * Submit daily closing summary (work completed, hours, remarks)
+  * Automatic submission reminder at end of day
+
+
+Shopping Cart & Sales Feature 🛒
+
+Browse product catalog (with images, prices, stock availability).
+
+Add items to cart, update quantity, remove items.
+
+Place orders directly from the app during client visits.
+
+Track order history & status.
+
+Option to accept payments (cash, UPI, card, etc.) if required.  
+---
+
+-------------------------
+
+📌 New Smart Features (Using Camera & ML Kit)
+
+Document Scanner 📄
+
+Capture documents with the camera and auto-enhance (crop, adjust brightness/contrast).
+
+Save as image/PDF for reports, client agreements, receipts, or expense bills.
+
+Upload directly to server linked with the user’s activity or visit.
+
+QR Code / Barcode Scanner 📦
+
+Scan product barcodes for quick order entry.
+
+Scan client QR codes for instant visit check-in.
+
+Use QR codes for attendance (optional alternative to selfie).
+
+Image to Text (OCR using ML Kit) 🔠
+
+Extract text from photos of documents, receipts, or visiting cards.
+
+Auto-fill client details or product info from scanned images.
+
+Store extracted data in structured form (searchable in reports).
+
+--------------------------
+
+### 📌 Admin Features
+
+* **Employee Tracking Dashboard**
+
+  * Real-time employee GPS location tracking
+  * View current activity status (working, lunch, visit, etc.)
+  * Monitor attendance status (present/absent/late)
+
+* **Reports & Analytics**
+
+  * Attendance reports (daily, weekly, monthly)
+  * Activity and work log reports (with timestamps & coordinates)
+  * Marketing visit reports (location + purpose + proof)
+  * Leave and absence reports
+  * Export data to Excel/PDF for HR/admin use
+
+---
+
+### 📌 Additional Features (Optional Enhancements)
+
+* Push notifications (attendance reminder, visit assigned, leave status update)
+* Offline mode (syncs automatically when online)
+* Role-based access (Admin / Manager / Employee)
+* Integration with payroll or HR systems
+
+---
+
+Would you like me to also **structure this into modules** (like Employee App, Admin Panel, Reports) so it looks more like a **ready project scope document** for developers?
